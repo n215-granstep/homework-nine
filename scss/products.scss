@@ -1,0 +1,69 @@
+.products{
+    .bg{
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .line{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: white;
+            height: 300px;
+            width: 80%;
+            padding: 20px;
+
+            img{
+                height: 200px;
+                object-fit: cover;
+                margin: 25px;
+            }
+        }
+    }
+    
+    .pokeball{
+        background-color: red;
+    }
+    .potion{
+        background-color: purple;
+    }
+    .repel{
+        background-color: green;
+    }
+    .rope{
+        background-color: yellow;
+    }
+    .gear{
+        background-color: blue;
+    }
+    .scope{
+        background-color: black;
+    }
+
+    .porygon{
+        height: 600px;
+        background-color: pink;
+        display: flex;
+        align-items: center;
+
+        .info{
+            width: 40%;
+            text-align: center;
+            color: blue;
+        }
+        .one{
+            width: 30%;
+            height: 100%;
+            background-image: url(../images/Porygon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .two{
+            width: 30%;
+            height: 100%;
+            background-image: url(../images/Porygon2.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}

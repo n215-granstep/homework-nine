@@ -1,0 +1,32 @@
+nav{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
+    .logoTitle{
+        display: flex;
+        align-items: center;
+        img{
+        height: 40px;
+        object-fit: cover;
+        }
+        h3{
+            color: white;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            font-weight: normal;
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+    }
+}
